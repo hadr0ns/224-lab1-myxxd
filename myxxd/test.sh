@@ -1,4 +1,4 @@
-TEST="myxxd"
+TEST="myxxd.c"
 cat $TEST | ./myxxd > myoutput1.txt;
 cat $TEST | ./myxxd -b > myoutput1bits.txt;
 cat $TEST | xxd > xxdoutput1.txt;
